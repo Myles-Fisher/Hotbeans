@@ -1,0 +1,267 @@
+
+
+h1 {
+  color: white;
+  padding: 5px;
+  font-style: comic sans;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-left: 35px;
+  font-style: comic sans;
+}
+
+p {
+  margin-left: 70px;
+  font-size: 30px;
+  font-style: comic sans;
+}
+
+h3 {
+
+  font-size: 45px;
+  font-style: comic sans;
+}
+
+button {
+  padding: 4%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100%;
+  margin: 4x 1%;
+  color: white;
+  background-color: black;
+  border-color: aqua;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 10%;
+  width: 80%;
+
+}
+
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  background-color: grey;
+}
+
+.s {
+  width: 1505px;
+  height: 600px;
+  background-color: rgb(49, 48, 48);
+  display: flex;
+}
+
+.w {
+  width: 750px;
+  height: 600px;
+  background-color: rgb(48, 47, 47);
+  border: 2px solid rgb(245, 245, 248);
+}
+
+.p {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 75%;
+  height: 40%;
+  margin-left: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 9.75%;
+  }
+
+  .col-s-2 {
+    width: 13.75%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 45.45%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 54.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 80%;
+  }
+
+  .col-s-11 {
+    width: 95.33%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-s-1 {
+    width: 9.75%;
+  }
+
+  .col-s-2 {
+    width: 13.75%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 45.45%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 54.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 80%;
+  }
+
+  .col-s-11 {
+    width: 95.33%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+
+.codeImg {
+  width: calc(1555px / 1.7);
+  height: calc(1017px / 1.7);
+}
+
+.codeimg2 {
+  width: 750px;
+  height: 600px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  background-color: rgb(19, 18, 18);
+  padding: 0;
+  margin: 0;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(121, 119, 119);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(87, 84, 84);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #686767;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

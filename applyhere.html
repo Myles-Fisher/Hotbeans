@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <title>Hot Beans</title>
+</head>
+<nav>
+  <a href="index.html" style="vertical-align: middle;">
+    <h1>Hot Beans</h1>
+  </a>
+  <a href="trainess.html"><button>Trainees</button></a> <a href="aboutus.html"><button>About us</button></a>
+  <a href="contactus.html"><button>contact us</button></a> <a
+    href="qualifications.html"><button>Qualifications</button></a>
+  <a href="applyhere.html"><button>Apply here</button></a>
+  <label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+</nav>
+
+<h2>Apply here</h2>
+
+
+<div class="container">
+  <form action="#">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="emai">email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="emai" name="email" placeholder="Your email.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Job you are applying for and qualifications</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
